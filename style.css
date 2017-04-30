@@ -1,0 +1,67 @@
+.nav-pills {
+   font-family: 'Lato', sans-serif;
+  font-size: 2em;
+   background-color:#B7C8B6	;
+}
+
+body{
+  background-color:#B7C8B6;		
+}
+
+.pageOne{
+ background:url(https://images.unsplash.com/photo-1429051883746-afd9d56fbdaf?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=a40432a29a1c55fc0b2ec7f1f2271877);
+  background-size:cover;
+  background-position : fixed;
+
+}
+
+.pageTwo{
+ background:url(https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=ca8c08d17555247f7580691500bb5351);
+background-size:cover;
+background-position : fixed;
+}
+
+.pageThree{
+ background:url(https://images.unsplash.com/photo-1453060113865-968cea1ad53a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=352c122fda047eb14dab3584043187f5);
+background-size:cover;
+background-position : fixed;
+}
+
+.blueBig{
+  color:#ADD8E6;
+  font-family: 'Lato', sans-serif;
+  text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black, 1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;
+  font-size:6em
+}
+
+.blueSmall{
+  color:#ADD8E6;
+  font-family: 'Lato', sans-serif;
+  text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black, 1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;
+  font-size: 3em;
+}
+
+.image{
+  border-style:solid;
+  border-width:5px;
+}
+.button{
+  font-size:2em;
+  font-family:'Raleway', sans-serif;
+}
+
+textarea {
+	border: 3px solid #0DFCA5;
+	padding: 5px;
+	font-family: 'Raleway', sans-serif;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
+
+.textbox {
+	border: 3px solid #0DFCA5;
+	padding: 5px;
+	font-family: 'Raleway', sans-serif;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
