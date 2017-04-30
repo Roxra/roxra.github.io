@@ -15,13 +15,19 @@ body{
 
 }
 
-.pageTwo{
+.pageGames{
  background:url(https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=ca8c08d17555247f7580691500bb5351);
 background-size:cover;
 background-position : fixed;
 }
 
-.pageThree{
+.pageWeb{
+ background:url(https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=ca8c08d17555247f7580691500bb5351);
+background-size:cover;
+background-position : fixed;
+}
+
+.pageContact{
  background:url(https://images.unsplash.com/photo-1453060113865-968cea1ad53a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=352c122fda047eb14dab3584043187f5);
 background-size:cover;
 background-position : fixed;
