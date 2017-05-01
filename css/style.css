@@ -64,8 +64,3 @@ body{
   background-position: bottom right;
   background-repeat: no-repeat;
 }
-
-a:hover, 
-.a:hover {
-   text-decoration: none !important;
-}
