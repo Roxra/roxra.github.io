@@ -10,13 +10,13 @@ body{
 }
 
 .pageAbout{
-  background:url(https://images.unsplash.com/photo-1429051883746-afd9d56fbdaf?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=a40432a29a1c55fc0b2ec7f1f2271877);
+  background-color:#9fc69f;
   background-size:cover;
   background-position : center;
 }
 
 .pageGames{
-  background:url(https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=ca8c08d17555247f7580691500bb5351);
+  background-color:steelblue;
   background-size:cover;
   background-position : fixed;
 }
@@ -28,7 +28,7 @@ body{
 }
 
 .pageContact{
-  background:url(https://images.unsplash.com/photo-1453060113865-968cea1ad53a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=352c122fda047eb14dab3584043187f5);
+  background-color:#9ee0ca;
   background-size:cover;
   background-position : fixed;
 }
@@ -53,7 +53,7 @@ body{
 }
 
 .textbox {
-  border: 3px solid #0DFCA5;
+  border: 2px solid #0DFCA5;
   padding: 5px;
   font-family: 'Raleway', sans-serif;
   background-position: bottom right;
