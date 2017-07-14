@@ -27,6 +27,15 @@ body{
   background-position : fixed;
 }
 
+
+.pageArt{
+  background:CORNFLOWERBLUE;
+  background-size:cover;
+  background-position : fixed;
+}
+
+
+
 .pageContact{
   background-color:#9ee0ca;
   background-size:cover;
