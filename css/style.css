@@ -15,7 +15,13 @@ body{
   background-position : center;
 }
 
-.pageGames{
+.pageGame{
+  background-color:#1f7a7a;
+  background-size:cover;
+  background-position : fixed;
+}
+
+.pageModels{
   background-color:steelblue;
   background-size:cover;
   background-position : fixed;
