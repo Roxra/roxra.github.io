@@ -2,6 +2,7 @@
   font-family: 'Lato', sans-serif;
   font-size: 2em;
   background-color:#B7C8B6;
+  background: url(http://roxra.github.io/images/Roxra.png) center / contain no-repeat;
   width: 100%;
 }
 
@@ -67,7 +68,7 @@ body{
   font-family:'Raleway', sans-serif;
 }
 
-.textbox {
+.textbox{
   border: 2px solid #0DFCA5;
   padding: 5px;
   font-family: 'Raleway', sans-serif;
