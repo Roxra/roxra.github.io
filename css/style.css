@@ -10,7 +10,7 @@ body{
 }
 
 .pageAbout{
-  background-color:#9fc69f;
+  background-color:steelblue;
   background-size:cover;
   background-position : center;
 }
@@ -22,7 +22,7 @@ body{
 }
 
 .pageModels{
-  background-color:steelblue;
+  background-color:#0050A7;
   background-size:cover;
   background-position : fixed;
 }
@@ -43,7 +43,7 @@ body{
 
 
 .pageContact{
-  background-color:#9ee0ca;
+  background-color:#76B6A1;
   background-size:cover;
   background-position : fixed;
 }
