@@ -3,12 +3,13 @@
   font-size: 2em;
   background-color:#B7C8B6;
   width: 100%;
+  padding-top: 10px;
 }
 
 .thumbnail
 {
   display: block;
-  padding: 3px;
+  padding: 10px;
   margin-bottom: 15px;
   line-height: 0.72857143;
   border-radius: 4px;
@@ -24,14 +25,15 @@ body{
   background-position : center;
 }
 
-.pageGame{
-  background-color:#1f7a7a;
+.pageProfessionalGame
+{
+  background-color:#76a0ef;
   background-size:cover;
   background-position : fixed;
 }
 
-.pageModels{
-  background-color:#0050A7;
+.pageGame{
+  background-color:#1f7a7a;
   background-size:cover;
   background-position : fixed;
 }
@@ -49,6 +51,13 @@ body{
   background-position : fixed;
 }
 
+.pageHistory
+{
+  background-color:LightSeaGreen;
+  background-size:cover;
+  background-position : fixed;
+}
+
 .pageContact{
   background-color:#76B6A1;
   background-size:cover;
@@ -59,7 +68,16 @@ body{
   color:white;
   font-family: 'Lato', sans-serif;
   text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black, 1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;
-  font-size:6em
+  font-size:6em;
+  margin-bottom: 30px;
+}
+
+.blueMedium{
+  color:white;
+  font-family: 'Lato', sans-serif;
+  text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black, 1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;
+  font-size:3.5em;
+  margin-bottom: 30px;
 }
 
 .blueSmall{
@@ -67,6 +85,13 @@ body{
   font-family: 'Lato', sans-serif;
   text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black, 1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;
   font-size: 1.8em;
+}
+
+.blueSmaller{
+  color:white;
+  font-family: 'Lato', sans-serif;
+  text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black, 1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;
+  font-size: 0.8em;
 }
 
 .button{
@@ -84,4 +109,21 @@ body{
 
 .brand{
   background: url(http://roxra.github.io/images/Roxra.png) center / contain no-repeat;
+}
+
+.transformers{
+	padding-bottom: 27px;
+}
+
+.farmtale-img{
+    width: 660px;
+}
+
+a {
+  color: CornflowerBlue;
+}
+
+.container-fluid
+{
+	padding-bottom: 20px;
 }
