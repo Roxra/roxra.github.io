@@ -13,6 +13,12 @@
   margin-bottom: 15px;
   line-height: 0.72857143;
   border-radius: 4px;
+  transition: transform 0.3s ease;
+}
+
+/* Animation on hover */
+.thumbnail:hover {
+    transform: scale(1.05); /* Scale up the button by 5% on hover */
 }
 
 body{
@@ -87,16 +93,15 @@ body{
   font-size: 1.8em;
 }
 
-.blueSmaller{
-  color:white;
-  font-family: 'Lato', sans-serif;
-  text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black, 1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;
-  font-size: 0.8em;
-}
-
 .button{
   font-size:2em;
   font-family:'Raleway', sans-serif;
+  transition: transform 0.3s ease;
+}
+
+/* Animation on hover */
+.button:hover {
+    transform: scale(1.1); /* Scale up the button by 10% on hover */
 }
 
 .textbox{
@@ -126,4 +131,54 @@ a {
 .container-fluid
 {
 	padding-bottom: 20px;
+}
+
+.timeline-container {
+  width: 80%;
+  max-width: 800px;
+  margin: 40px auto;
+  margin-left: 825px;
+}
+
+.timeline {
+  position: relative;
+  border-left:3px solid #007bff;
+  padding: 20px 40px;
+  margin: 0;
+}
+
+.event {
+  position: relative;
+  margin: 20px 0;
+  padding: 20px;
+  margin-right: -60px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transform: scale(0.9); /* Add a slight scale animation */
+  transition: transform 0.3s ease-in-out;
+   font-family:'Raleway', sans-serif;
+
+}
+
+.event:hover {
+  transform: scale(1); /* Enlarge the event on hover */
+}
+
+.event::before {
+  content: attr(data-date);
+  position: absolute;
+  top: -28px;
+  left: 50%;
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 20px;
+  transform: translateX(-50%);
+  font-weight: bold;
+  font-size: 16px; /* Adjust the font size for the year labels */
+}
+
+.event-content p {
+  margin-bottom: 0;
 }
