@@ -93,6 +93,13 @@ body{
   font-size: 1.8em;
 }
 
+.blueSmaller{
+  color:white;
+  font-family: 'Lato', sans-serif;
+  text-shadow: 1px 0 black, -1px 0 black, 0 1px black, 0 -1px black, 0.5px 0.5px black, -0.5px -0.5px black, -0.5px 0.5px black, 0.5px -0.5px black;
+  font-size: 1.7em;
+}
+
 .button{
   font-size:2em;
   font-family:'Raleway', sans-serif;
@@ -128,22 +135,20 @@ a {
   color: CornflowerBlue;
 }
 
-.container-fluid
-{
-	padding-bottom: 20px;
+.container-fluid{
+  padding-bottom: 20px;
 }
 
 .timeline-container {
-  width: 80%;
-  max-width: 800px;
-  margin-right: 105px;
-  }
+  padding-left: 80px;
+ }
 
 .timeline {
   position: relative;
   border-left:3px solid #007bff;
   padding: 20px 40px;
   margin: 0;
+  border-radius: 4px;
 }
 
 .event {
@@ -151,12 +156,13 @@ a {
   margin: 20px 0;
   padding: 20px;
   margin-right: -60px;
-  background-color: #fff;
+  background-color: #36454F;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transform: scale(0.9); /* Add a slight scale animation */
   transition: transform 0.3s ease-in-out;
    font-family:'Raleway', sans-serif;
+
 
 }
 
@@ -180,4 +186,22 @@ a {
 
 .event-content p {
   margin-bottom: 0;
+  text-align: center;
+}
+
+.text-bubble {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 20px;
+  padding: 5px 10px;
+  display: inline-block;
+  margin-right: 5px;
+  font-weight: bold;
+  font-size: 5px;
+}
+
+
+ul {
+  display: table;
+  margin: 0 auto;
 }
