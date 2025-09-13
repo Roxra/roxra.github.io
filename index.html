@@ -12,24 +12,25 @@
     <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <script src="script.js"></script>
 </head>
 
 <body>
     <div class="container-fluid">
-        <nav class="nav nav-pills">
-            <li> <a href="#about" class="brand"><img src = "images/transparent.png" style="height: 1em" > </a> </li>
-            <li> <a href=#pageProfessionalGame> Professional Game Projects </a> </li>
-            <li> <a href=#pageGame> Personal Games Projects </a> </li>
-            <li> <a href=#pageWeb> Personal Web Projects </a> </li>
-            <li> <a href=#pageHistory> My Professional History </a> </li>
-            <li class="pull-right"> <a href=#pageContact> Contact Me </a> </li>
+        <nav>
+            <ul class="nav nav-pills">
+                <li> <a href="#pageAbout" class="brand"><img src = "images/transparent.png" style="height: 1em" > </a> </li>
+                <li> <a href="#pageProfessionalGame"> Professional Game Projects </a> </li>
+                <li> <a href="#pageGame"> Personal Games Projects </a> </li>
+                <li> <a href="#pageWeb"> Personal Web Projects </a> </li>
+                <li> <a href="#pageHistory" class="active"> My Professional History </a> </li>
+                <li class="pull-right"> <a href="#pageContact"> Contact Me </a> </li>
+            </ul>
         </nav>
     </div>
     <div class="pageAbout container-fluid" id="pageAbout">
-        <center>
+        <div class="text-center">
             <h1 class="blueBig">Hello! My name is William Hughes!</h1>
-        </center>
+        </div>
         <p class="blueSmall">I'm a games programmer and developer currently working at <a href="https://www.midoki.com/"> Midoki </a> as a programmer. I studied Games Software Engineering at University and create games in my spare time outside of work. I also studied Games
             Development at College and am an Oculus Start member. I am skilled in:</p>
         <ul class="blueSmall">
@@ -45,14 +46,14 @@
     </div>
     <div class="pageProfessionalGame" id="pageProfessionalGame">
         <div class="container-fluid">
-            <center>
+            <div class="text-center">
                 <h1 class="blueBig"> Professional Game Projects </h1>
-            </center>
+            </div>
             <div class="row">
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="thumbnail">
                         <a href="https://www.sumo-digital.com/games/ghost-hq/">
-                            <img alt="GhostHQ" class="img-rounded" src="images/GhostHQ.png">
+                            <img alt="GhostHQ" class="img-rounded" src="images/ghostHQ.png">
                             <div class="caption">
                                 <p class="blueSmall"> Ghost HQ </p>
                                 <div>
@@ -146,176 +147,174 @@
     </div>
     <div class="pageGame" id="pageGame">
         <div class="container-fluid">
-            <center>
+            <div class="text-center">
                 <h1 class="blueBig">Personal Game Projects</h1>
-            </center>
-            <div class="col-lg-4 col-md-3 col-sm-3 col-xs-6">
-                <div class="thumbnail">
-                    <a href="https://roxra.github.io/BattleBlade/">
-                     <img alt="BattleBlade" class="img-rounded" src="images/battlebladetrailer.gif">
-            <div class="caption">
-                <p class="blueSmall"> BattleBlade </p>
-                <div>
-
-                <div class="text-bubble-thumbnail">
-                    <p class="blueMedium">Unity</p>
-                </div>
-                <div class="text-bubble-thumbnail">
-                    <p class="blueMedium">C#</p>
-                </div>
-                <div class="text-bubble-thumbnail">
-                    <p class="blueMedium">Steam</p>
-                </div>
-                <div class="text-bubble-thumbnail">
-                    <p class="blueMedium">Pixel Art</p>
-                </div>
-                </div>
             </div>
-                  </a>
+            <div class="row">
+                <div class="col-lg-4 col-md-3 col-sm-3 col-xs-6">
+                    <div class="thumbnail">
+                        <a href="https://roxra.github.io/BattleBlade/">
+                         <img alt="BattleBlade" class="img-rounded" src="images/battlebladetrailer.gif">
+                <div class="caption">
+                    <p class="blueSmall"> BattleBlade </p>
+                    <div>
+                    <div class="text-bubble-thumbnail">
+                        <p class="blueMedium">Unity</p>
+                    </div>
+                    <div class="text-bubble-thumbnail">
+                        <p class="blueMedium">C#</p>
+                    </div>
+                    <div class="text-bubble-thumbnail">
+                        <p class="blueMedium">Steam</p>
+                    </div>
+                    <div class="text-bubble-thumbnail">
+                        <p class="blueMedium">Pixel Art</p>
+                    </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-3 col-sm-3 col-xs-6">
-                <div class="thumbnail">
-                    <a href="https://roxra.itch.io/alone-in-the-grey">
-                     <img alt="Alone In The Grey" class="img-rounded" src="images/aloneinthegrey.gif">
-            <div class="caption">
-                <p class="blueSmall"> Alone In The Grey </p>
-                <div>
-
-                <div class="text-bubble-thumbnail">
-                    <p class="blueMedium">Unity</p>
+                      </a>
+                    </div>
                 </div>
-                <div class="text-bubble-thumbnail">
-                    <p class="blueMedium">C#</p>
+                <div class="col-lg-4 col-md-3 col-sm-3 col-xs-6">
+                    <div class="thumbnail">
+                        <a href="https://roxra.itch.io/alone-in-the-grey">
+                         <img alt="Alone In The Grey" class="img-rounded" src="images/aloneinthegrey.gif">
+                <div class="caption">
+                    <p class="blueSmall"> Alone In The Grey </p>
+                    <div>
+                    <div class="text-bubble-thumbnail">
+                        <p class="blueMedium">Unity</p>
+                    </div>
+                    <div class="text-bubble-thumbnail">
+                        <p class="blueMedium">C#</p>
+                    </div>
+                    </div>
                 </div>
+                      </a>
+                    </div>
                 </div>
-            </div>
-                  </a>
+                <div class="col-lg-4 col-md-3 col-sm-3 col-xs-6">
+                    <div class="thumbnail">
+                        <a href="https://play.google.com/store/apps/details?id=com.Roxra.CoinsChestsandLoot">
+                         <img alt="Coins, Chests and Loot" class="img-rounded" src="images/Coins.gif">
+                <div class="caption">
+                    <p class="blueSmall"> Coins, Chests and Loot </p>
+                    <div>
+                    <div class="text-bubble-thumbnail">
+                        <p class="blueMedium">Android / Steam</p>
+                    </div>
+                    <div class="text-bubble-thumbnail">
+                        <p class="blueMedium">Unity</p>
+                    </div>
+                    <div class="text-bubble-thumbnail">
+                        <p class="blueMedium">C#</p>
+                    </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-3 col-sm-3 col-xs-6">
-                <div class="thumbnail">
-                    <a href="https://play.google.com/store/apps/details?id=com.Roxra.CoinsChestsandLoot">
-                     <img alt="Coins, Chests and Loot" class="img-rounded" src="images/Coins.gif">
-            <div class="caption">
-                <p class="blueSmall"> Coins, Chests and Loot </p>
-                <div>
-
-                <div class="text-bubble-thumbnail">
-                    <p class="blueMedium">Android / Steam</p>
+                      </a>
+                    </div>
                 </div>
-                <div class="text-bubble-thumbnail">
-                    <p class="blueMedium">Unity</p>
+                <div class="col-lg-2.5 col-md-3 col-sm-3 col-xs-6">
+                    <div class="thumbnail">
+                        <a href="https://roxra.itch.io/ogre-the-top" target="_blank">
+                         <img alt="Ogre The Top" class="img-rounded" src="images/ogre.gif">
+                <div class="caption">
+                    <p class="blueSmall"> Ogre The Top </p>
+                    <div>
+                    <div class="text-bubble-thumbnail">
+                        <p class="blueMedium">Unity</p>
+                    </div>
+                    <div class="text-bubble-thumbnail">
+                        <p class="blueMedium">C#</p>
+                    </div>
+                    </div>
                 </div>
-                <div class="text-bubble-thumbnail">
-                    <p class="blueMedium">C#</p>
+                      </a>
+                    </div>
                 </div>
+                <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6">
+                    <div class="thumbnail">
+                        <a href="https://github.com/Roxra/Towering-Game">
+                         <img alt="Towering" class="img-rounded" src="images/towering.gif">
+                <div class="caption">
+                    <p class="blueSmall"> Towering </p>
+                    <div>
+                    <div class="text-bubble-thumbnail">
+                        <p class="blueMedium">SDL2</p>
+                    </div>
+                    <div class="text-bubble-thumbnail">
+                        <p class="blueMedium">C++</p>
+                    </div>
+                    </div>
                 </div>
-            </div>
-                  </a>
+                      </a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-2.5 col-md-3 col-sm-3 col-xs-6">
-                <div class="thumbnail">
-                    <a href="https://roxra.itch.io/ogre-the-top" target="_blank">
-                     <img alt="Ogre The Top" class="img-rounded" src="images/ogre.gif">
-            <div class="caption">
-                <p class="blueSmall"> Ogre The Top </p>
-                <div>
-                <div class="text-bubble-thumbnail">
-                    <p class="blueMedium">Unity</p>
+                <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6">
+                    <div class="thumbnail">
+                        <a href="https://roxra.itch.io/clock-tower">
+                         <img alt="Clock Tower" class="img-rounded" src="images/clocktower.gif">
+                <div class="caption">
+                    <p class="blueSmall"> Clock Tower </p>
+                    <div>
+                    <div class="text-bubble-thumbnail">
+                        <p class="blueMedium">Unity</p>
+                    </div>
+                    <div class="text-bubble-thumbnail">
+                        <p class="blueMedium">C#</p>
+                    </div>
+                    </div>
                 </div>
-                <div class="text-bubble-thumbnail">
-                    <p class="blueMedium">C#</p>
+                      </a>
+                    </div>
                 </div>
+                <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6">
+                    <div class="thumbnail">
+                        <a href="https://roxra.itch.io/toilet-madness">
+                         <img alt="Toilet Madness" class="img-rounded" src="images/toiletmadness.gif">
+                <div class="caption">
+                    <p class="blueSmall"> Toilet Madness </p>
+                    <div>
+                    <div class="text-bubble-thumbnail">
+                        <p class="blueMedium">Unity</p>
+                    </div>
+                    <div class="text-bubble-thumbnail">
+                        <p class="blueMedium">C#</p>
+                    </div>
+                    </div>
                 </div>
-            </div>
-                  </a>
+                      </a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6">
-                <div class="thumbnail">
-                    <a href="https://github.com/Roxra/Towering-Game">
-                     <img alt="Towering" class="img-rounded" src="images/towering.gif">
-            <div class="caption">
-                <p class="blueSmall"> Towering </p>
-                <div>
-
-                <div class="text-bubble-thumbnail">
-                    <p class="blueMedium">SDL2</p>
+                <div class="col-lg-2.5 col-md-3 col-sm-3 col-xs-6">
+                    <div class="thumbnail">
+                        <a href="https://github.com/Roxra/AStar-vs-GA-Pathfinding">
+                         <img alt="AI" class="img-rounded" src="images/GAvsAStar.gif">
+                <div class="caption">
+                    <p class="blueSmall"> A* & GA Pathfinding </p>
+                    <div>
+                    <div class="text-bubble-thumbnail">
+                        <p class="blueMedium">C++</p>
+                    </div>
+                    <div class="text-bubble-thumbnail">
+                        <p class="blueMedium">SDL2</p>
+                    </div>
+                    <div class="text-bubble-thumbnail">
+                        <p class="blueMedium">AI</p>
+                    </div>
+                    </div>
                 </div>
-                <div class="text-bubble-thumbnail">
-                    <p class="blueMedium">C++</p>
-                </div>
-                </div>
-            </div>
-                  </a>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6">
-                <div class="thumbnail">
-                    <a href="https://roxra.itch.io/clock-tower">
-                     <img alt="Clock Tower" class="img-rounded" src="images/clocktower.gif">
-            <div class="caption">
-                <p class="blueSmall"> Clock Tower </p>
-                <div>
-                <div class="text-bubble-thumbnail">
-                    <p class="blueMedium">Unity</p>
-                </div>
-                <div class="text-bubble-thumbnail">
-                    <p class="blueMedium">C#</p>
-                </div>
-                </div>
-            </div>
-                  </a>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6">
-                <div class="thumbnail">
-                    <a href="https://roxra.itch.io/toilet-madness">
-                     <img alt="Toilet Madness" class="img-rounded" src="images/toiletmadness.gif">
-            <div class="caption">
-                <p class="blueSmall"> Toilet Madness </p>
-                <div>
-                <div class="text-bubble-thumbnail">
-                    <p class="blueMedium">Unity</p>
-                </div>
-                <div class="text-bubble-thumbnail">
-                    <p class="blueMedium">C#</p>
-                </div>
-                </div>
-            </div>
-                  </a>
-                </div>
-            </div>
-            <div class="col-lg-2.5 col-md-3 col-sm-3 col-xs-6">
-                <div class="thumbnail">
-                    <a href="https://github.com/Roxra/AStar-vs-GA-Pathfinding">
-                     <img alt="AI" class="img-rounded" src="images/GAvsAStar.gif">
-            <div class="caption">
-                <p class="blueSmall"> A* & GA Pathfinding </p>
-                <div>
-                <div class="text-bubble-thumbnail">
-                    <p class="blueMedium">C++</p>
-                </div>
-                <div class="text-bubble-thumbnail">
-                    <p class="blueMedium">SDL2</p>
-                </div>
-                <div class="text-bubble-thumbnail">
-                    <p class="blueMedium">AI</p>
-                </div>
-                </div>
-            </div>
-                  </a>
+                      </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="pageWeb" id="pageWeb">
         <div class="container-fluid">
-            <center>
+            <div class="text-center">
                 <h1 class="blueBig">Personal Web Projects</h1>
-            </center>
+            </div>
             <div class="row">
                 <div class="col-md-4">
                     <div class="thumbnail">
@@ -352,9 +351,9 @@
     </div>
     <div class="pageHistory" id="pageHistory">
         <div class="container-fluid">
-            <center>
+            <div class="text-center">
                 <h1 class="blueBig"> My Professional History </h1>
-            </center>
+            </div>
             <div class="row">
                 <div class="col-md-3"></div>
                 <div class="col-md-5">
@@ -406,9 +405,9 @@
     </div>
 
     <div class="pageContact" id="pageContact">
-        <center class="blueBig">
+        <div class="text-center blueBig">
             Want to know how to contact me?
-        </center>
+        </div>
         <div class="btnList text-center">
             <a class="btn btn-primary button" href="https://github.com/Roxra">Github</a> <a class="btn btn-primary button" href="https://www.linkedin.com/in/william-h-4a132b125/">Linkedin</a>
         </div>
@@ -422,6 +421,7 @@
         <br>
         <br>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
