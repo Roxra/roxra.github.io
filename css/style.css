@@ -6,8 +6,7 @@
   padding-top: 10px;
 }
 
-.thumbnail
-{
+.thumbnail {
   padding: 10px;
   margin-bottom: 15px;
   line-height: 0.72857143;
@@ -18,9 +17,8 @@
   display: inline-flex;
 }
 
-/* Animation on hover */
 .thumbnail:hover {
-    transform: scale(1.05); /* Scale up the button by 5% on hover */
+  transform: scale(1.05);
 }
 
 body{
@@ -30,46 +28,43 @@ body{
 .pageAbout{
   background-color:steelblue;
   background-size:cover;
-  background-position : center;
+  background-position:center;
 }
 
-.pageProfessionalGame
-{
+.pageProfessionalGame{
   background-color:#76a0ef;
   background-size:cover;
-  background-position : fixed;
+  background-position:fixed;
 }
 
 .pageGame{
   background-color:#1f7a7a;
   background-size:cover;
-  background-position : fixed;
+  background-position:fixed;
 }
 
 .pageWeb{
   background:darkslategrey;
   background-size:cover;
-  background-position : fixed;
+  background-position:fixed;
 }
-
 
 .pageArt{
   background:CORNFLOWERBLUE;
   background-size:cover;
-  background-position : fixed;
+  background-position:fixed;
 }
 
-.pageHistory
-{
+.pageHistory{
   background-color:LightSeaGreen;
   background-size:cover;
-  background-position : fixed;
+  background-position:fixed;
 }
 
 .pageContact{
   background-color:#76B6A1;
   background-size:cover;
-  background-position : fixed;
+  background-position:fixed;
 }
 
 .blueBig{
@@ -108,9 +103,8 @@ body{
   transition: transform 0.3s ease;
 }
 
-/* Animation on hover */
 .button:hover {
-    transform: scale(1.1); /* Scale up the button by 10% on hover */
+  transform: scale(1.1);
 }
 
 .textbox{
@@ -125,25 +119,11 @@ body{
   background: url(http://roxra.github.io/images/Roxra.png) center / contain no-repeat;
 }
 
-.transformers{
-	padding-bottom: 27px;
-}
+a { color: CornflowerBlue; }
 
-.farmtale-img{
-    width: 660px;
-}
+.container-fluid{ padding-bottom: 20px; }
 
-a {
-  color: CornflowerBlue;
-}
-
-.container-fluid{
-  padding-bottom: 20px;
-}
-
-.timeline-container {
-  padding-left: 80px;
- }
+.timeline-container { padding-left: 80px; }
 
 .timeline {
   position: relative;
@@ -161,14 +141,12 @@ a {
   background-color: #36454F;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  transform: scale(0.9); /* Add a slight scale animation */
+  transform: scale(0.9);
   transition: transform 0.3s ease-in-out;
-   font-family:'Raleway', sans-serif;
+  font-family:'Raleway', sans-serif;
 }
 
-.event:hover {
-  transform: scale(1); /* Enlarge the event on hover */
-}
+.event:hover { transform: scale(1); }
 
 .event::before {
   content: attr(data-date);
@@ -209,7 +187,7 @@ a {
   background-color: #007bff;
   color: #fff;
   border-radius: 20px;
-  padding: 0px 10px;
+  padding: 0 10px;
   display: inline-block;
   margin-right: 5px;
   font-weight: bold;
@@ -224,8 +202,74 @@ a {
 }
 
 .caption {
-display: flex; 
-align-items: center; 
-justify-content: space-between;
-margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* Professional section overrides */
+.pageProfessionalGame [class*="col-"] {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.pageProfessionalGame .thumbnail {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: 1 1 auto;
+  position: relative;
+  box-sizing: border-box;
+  padding-bottom: 80px;
+}
+
+.pageProfessionalGame .thumbnail:hover { z-index: 2; }
+
+.pageProfessionalGame .thumbnail img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+}
+
+.pageProfessionalGame .caption {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.pageProfessionalGame .caption > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.pageProfessionalGame .caption p.blueSmall {
+  margin: 0;
+  line-height: 1.2;
+}
+
+.pageProfessionalGame .text-bubble-thumbnail {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 9999px;
+  padding: 4px 10px;
+  height: auto;
+  display: inline-flex;
+  align-items: center;
+}
+
+.pageProfessionalGame .text-bubble-thumbnail p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1;
+  text-shadow: none;
+  color: #fff;
 }
