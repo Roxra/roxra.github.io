@@ -273,3 +273,30 @@ a { color: CornflowerBlue; }
   text-shadow: none;
   color: #fff;
 }
+
+.pageHistory .timeline-container{
+  max-width: 900px;
+  margin: 0 auto;
+  padding-left: 0;
+}
+
+.pageHistory .timeline{
+  position: relative;
+  padding-left: 80px;
+  border-left: 0;
+}
+
+.pageHistory .timeline::before{
+  content: "";
+  position: absolute;
+  left: 40px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: #007bff;
+  border-radius: 2px;
+}
+
+.pageHistory .event{
+  margin-right: 0;
+}
